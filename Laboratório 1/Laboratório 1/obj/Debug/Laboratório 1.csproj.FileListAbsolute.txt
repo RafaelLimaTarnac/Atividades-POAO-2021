@@ -1,0 +1,7 @@
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 1\Laboratório 1\bin\Debug\Laboratório 1.exe.config
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 1\Laboratório 1\bin\Debug\Laboratório 1.exe
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 1\Laboratório 1\bin\Debug\Laboratório 1.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 1\Laboratório 1\obj\Debug\Laboratório 1.csprojAssemblyReference.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 1\Laboratório 1\obj\Debug\Laboratório 1.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 1\Laboratório 1\obj\Debug\Laboratório 1.exe
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 1\Laboratório 1\obj\Debug\Laboratório 1.pdb
