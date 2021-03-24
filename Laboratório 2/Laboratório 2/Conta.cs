@@ -20,7 +20,7 @@ namespace Laboratório_2
         }
         protected void Transferir(Conta receptor, float quantia, float imposto)
         {
-            if (saldo - (quantia * imposto) > 0)
+            if (saldo - quantia > 0)
             {
                 saldo -= quantia;
                 quantia -= quantia * imposto;
@@ -39,7 +39,7 @@ namespace Laboratório_2
         }
         protected void Sacar(float removido, float imposto)
         {
-            if (saldo - (removido * imposto) > 0)
+            if (saldo - removido > 0)
             {
                 removido -= removido * imposto;
                 saldo -= removido;
