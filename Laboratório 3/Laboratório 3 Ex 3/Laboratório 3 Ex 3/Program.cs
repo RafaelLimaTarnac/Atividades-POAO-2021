@@ -37,8 +37,8 @@ namespace Laboratório_3_Ex_3
                 PreçoTotal += Jogo.Preço;
             }
             Console.WriteLine("Preço Total: R${0}",PreçoTotal);
+            
             Console.ReadLine();
-
         }
     }
 }
