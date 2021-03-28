@@ -1,0 +1,14 @@
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 3 Ex 3\Laboratório 3 Ex 3\bin\Debug\Laboratório 3 Ex 3.exe.config
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 3 Ex 3\Laboratório 3 Ex 3\bin\Debug\Laboratório 3 Ex 3.exe
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 3 Ex 3\Laboratório 3 Ex 3\bin\Debug\Laboratório 3 Ex 3.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 3 Ex 3\Laboratório 3 Ex 3\obj\Debug\Laboratório 3 Ex 3.csprojAssemblyReference.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 3 Ex 3\Laboratório 3 Ex 3\obj\Debug\Laboratório 3 Ex 3.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 3 Ex 3\Laboratório 3 Ex 3\obj\Debug\Laboratório 3 Ex 3.exe
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 3 Ex 3\Laboratório 3 Ex 3\obj\Debug\Laboratório 3 Ex 3.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 3\Laboratório 3 Ex 3\Laboratório 3 Ex 3\bin\Debug\Laboratório 3 Ex 3.exe.config
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 3\Laboratório 3 Ex 3\Laboratório 3 Ex 3\bin\Debug\Laboratório 3 Ex 3.exe
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 3\Laboratório 3 Ex 3\Laboratório 3 Ex 3\bin\Debug\Laboratório 3 Ex 3.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 3\Laboratório 3 Ex 3\Laboratório 3 Ex 3\obj\Debug\Laboratório 3 Ex 3.csprojAssemblyReference.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 3\Laboratório 3 Ex 3\Laboratório 3 Ex 3\obj\Debug\Laboratório 3 Ex 3.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 3\Laboratório 3 Ex 3\Laboratório 3 Ex 3\obj\Debug\Laboratório 3 Ex 3.exe
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\Laboratório 3\Laboratório 3 Ex 3\Laboratório 3 Ex 3\obj\Debug\Laboratório 3 Ex 3.pdb
