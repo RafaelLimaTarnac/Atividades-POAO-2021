@@ -21,5 +21,13 @@ namespace Laboratório_4
         {
             Vivo = false;
         }
+        public void LevarDano(int dano)
+        {
+            Energia -= dano;
+            if (Energia <= 1)
+            {
+                Morte();
+            }
+        }
     }
 }

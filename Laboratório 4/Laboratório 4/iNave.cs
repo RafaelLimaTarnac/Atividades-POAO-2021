@@ -14,5 +14,6 @@ namespace Laboratório_4
         void MoverDireita();
         void MoverEsquerda();
         void VerificarDanos();
+        void LevarDano(int dano);
     }
 }
