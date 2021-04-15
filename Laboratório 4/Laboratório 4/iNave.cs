@@ -13,7 +13,7 @@ namespace Laboratório_4
         void MoverBaixo();
         void MoverDireita();
         void MoverEsquerda();
-        void VerificarDanos();
+        string VerificarDanos();
         void LevarDano(int dano);
     }
 }

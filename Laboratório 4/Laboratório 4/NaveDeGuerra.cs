@@ -41,9 +41,9 @@ namespace Laboratório_4
         {
             Posição[1] -= Velocidade;
         }
-        public void VerificarDanos()
+        public string VerificarDanos()
         {
-            throw new NotImplementedException();
+            return $"Energia Restante de {Nome} = {Energia}";
         }
         public void LimitarEspaço()
         {

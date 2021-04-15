@@ -20,29 +20,39 @@ namespace Laboratório_4
             Vivo = true;
         }
         //métodos
-        public void VerCarga()
-        {
-
-        }
         public void MoverCima()
         {
-            throw new NotImplementedException();
+            Posição[0] -= Velocidade;
         }
         public void MoverBaixo()
         {
-            throw new NotImplementedException();
+            Posição[0] += Velocidade;
         }
         public void MoverDireita()
         {
-            throw new NotImplementedException();
+            Posição[1] += Velocidade;
         }
         public void MoverEsquerda()
         {
-            throw new NotImplementedException();
+            Posição[1] -= Velocidade;
         }
-        public void VerificarDanos()
+        public string VerificarDanos()
         {
             throw new NotImplementedException();
+        }
+        public void LimitarEspaço()
+        {
+            for (int i = 0; i < Posição.Length; i++)
+            {
+                if (Posição[i] < 1)
+                {
+                    Posição[i] = 1;
+                }
+                if (Posição[i] > 20)
+                {
+                    Posição[i] = 20;
+                }
+            }
         }
     }
 }

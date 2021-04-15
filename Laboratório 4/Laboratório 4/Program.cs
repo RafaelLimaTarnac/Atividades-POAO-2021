@@ -12,13 +12,16 @@ namespace Laboratório_4
         static void Main(string[] args)
         {
             //construção naves
-            NaveDeGuerra NavePlayer = new NaveDeGuerra("nomeTeste",100,30,1,10,10,false);
+            NaveDeGuerra NavePlayer = new NaveDeGuerra("Bob Nelson",100,30,1,10,10,false);
+            NaveDeTransporte NavePlayerCena2 = new NaveDeTransporte("Bob Nelson",200,30,1,10,10);
             NaveDeGuerra NaveInimigo1 = new NaveDeGuerra("inimigoTeste1",100,1,1,15,20,true);
             NaveDeGuerra NaveInimigo2 = new NaveDeGuerra("inimigoTeste2", 100, 1, 1, 10, 20,true);
             NaveDeGuerra NaveInimigo3 = new NaveDeGuerra("inimigoTeste3", 100, 1, 1, 5, 20,true);
             NaveDeGuerra[] NavesEmJogo = new NaveDeGuerra[] { NavePlayer,NaveInimigo1, NaveInimigo2, NaveInimigo3 };
+            int cena = 1;
             int delayTiro = 1;
             int delayAsteroide = 1;
+            bool verificarDanos = false;
             bool atirou = false;
             int ação = 0;
             List<Projétil> ListaTiros = new List<Projétil>();
@@ -53,10 +56,11 @@ namespace Laboratório_4
                 switch (ação)
                 {
                     case 1:
-                        atirou = true;
+                        if (cena == 1)
+                            atirou = true;
                         break;
                     case 2:
-                        NavePlayer.VerificarDanos();
+                        verificarDanos = true;
                         break;
                     case 3:
                         NavePlayer.MoverCima();
@@ -78,7 +82,63 @@ namespace Laboratório_4
                 AtirarInimigo();
                 CriarMeteoros();
                 Console.Clear();
+
             }
+            // fazer cena2
+            while (NavePlayer.Energia > 0)
+            {
+                //// delimita a tela
+                //DelimitarEspaço();
+                //if (atirou)
+                //{
+                //    AtirarPlayer();
+                //    atirou = false;
+                //}
+                //Colisoes();
+                //DeterminarEspaços();
+                //DesenharEspaço();
+                //FimDeJogo();
+                //foreach (Projétil elemento in ListaTiros)
+                //{
+                //    elemento.MovimentaçãoProjétil();
+                //}
+                //foreach (Asteroide elementoAsteroide in ListaAsteroides)
+                //{
+                //    elementoAsteroide.Posição[0] += 1;
+                //}
+                //ação = int.Parse(Console.ReadLine());
+                ////ações do player
+                //switch (ação)
+                //{
+                //    case 1:
+                //        if (cena == 1)
+                //            atirou = true;
+                //        break;
+                //    case 2:
+                //        verificarDanos = true;
+                //        break;
+                //    case 3:
+                //        NavePlayer.MoverCima();
+                //        NavePlayer.LimitarEspaço();
+                //        break;
+                //    case 4:
+                //        NavePlayer.MoverBaixo();
+                //        NavePlayer.LimitarEspaço();
+                //        break;
+                //    case 5:
+                //        NavePlayer.MoverDireita();
+                //        NavePlayer.LimitarEspaço();
+                //        break;
+                //    case 6:
+                //        NavePlayer.MoverEsquerda();
+                //        NavePlayer.LimitarEspaço();
+                //        break;
+                //}
+                //AtirarInimigo();
+                //CriarMeteoros();
+                //Console.Clear();
+            }
+
             //desenha o plano
             Console.Read();
             //métodos
@@ -92,8 +152,16 @@ namespace Laboratório_4
                     }
                     Console.WriteLine("");
                 }
-                Console.WriteLine("(1)ATACAR\n(2)VER DANOS\n(3)MOVER PARA CIMA\n(4)MOVER PARA BAIXO\n" +
-                    "(5)MOVER PARA DIREITA\n(6)MOVER PARA ESQUERDA\n");
+                if (verificarDanos == true)
+                {
+                    Console.WriteLine($"{NavePlayer.VerificarDanos()}\n(1)ATACAR\n(2)VER DANOS\n(3)MOVER PARA CIMA\n(4)MOVER PARA BAIXO\n" +
+                        "(5)MOVER PARA DIREITA\n(6)MOVER PARA ESQUERDA\n");
+                    verificarDanos = false;
+                }
+                else
+                    Console.WriteLine("\n(1)ATACAR\n(2)VER DANOS\n(3)MOVER PARA CIMA\n(4)MOVER PARA BAIXO\n" +
+                        "(5)MOVER PARA DIREITA\n(6)MOVER PARA ESQUERDA\n");
+
             }
             void DelimitarEspaço()
             {

@@ -1,0 +1,7 @@
+C:\Users\rafae\source\repos\P1POO\P1POO\bin\Debug\P1POO.exe.config
+C:\Users\rafae\source\repos\P1POO\P1POO\bin\Debug\P1POO.exe
+C:\Users\rafae\source\repos\P1POO\P1POO\bin\Debug\P1POO.pdb
+C:\Users\rafae\source\repos\P1POO\P1POO\obj\Debug\P1POO.csprojAssemblyReference.cache
+C:\Users\rafae\source\repos\P1POO\P1POO\obj\Debug\P1POO.csproj.CoreCompileInputs.cache
+C:\Users\rafae\source\repos\P1POO\P1POO\obj\Debug\P1POO.exe
+C:\Users\rafae\source\repos\P1POO\P1POO\obj\Debug\P1POO.pdb
