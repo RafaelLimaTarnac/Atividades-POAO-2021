@@ -59,5 +59,9 @@ namespace Laboratório_4
                 }
             }
         }
+        public void GastarCombustivel()
+        {
+            NivelCombustivel--;
+        }
     }
 }

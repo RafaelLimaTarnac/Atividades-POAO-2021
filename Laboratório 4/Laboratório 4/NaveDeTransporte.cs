@@ -8,14 +8,16 @@ namespace Laboratório_4
 {
     class NaveDeTransporte : Nave , iNave
     {
+        public int Carga { get; private set; }
         //contrutor
-        public NaveDeTransporte(string nome, int nivelCombustivel, int energia, int velocidade, int posiçãoX, int posiçãoY)
+        public NaveDeTransporte(string nome, int nivelCombustivel, int energia, int velocidade, int posiçãoX, int posiçãoY, int carga)
         {
             Nome = nome;
             NivelCombustivel = nivelCombustivel;
             Energia = energia;
             Velocidade = velocidade;
             Posição = new int[2] { posiçãoX, posiçãoY };
+            Carga = carga;
 
             Vivo = true;
         }
@@ -38,7 +40,7 @@ namespace Laboratório_4
         }
         public string VerificarDanos()
         {
-            throw new NotImplementedException();
+            return $"Energia Restante de {Nome} = {Energia}";
         }
         public void LimitarEspaço()
         {
@@ -53,6 +55,11 @@ namespace Laboratório_4
                     Posição[i] = 20;
                 }
             }
+        }
+        public void GastarCombustivel()
+        {
+            NivelCombustivel--;
+            NivelCombustivel -= Carga;
         }
     }
 }
