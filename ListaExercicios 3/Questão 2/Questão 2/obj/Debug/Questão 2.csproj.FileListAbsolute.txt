@@ -1,0 +1,7 @@
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\ListaExercicios 3\Questão 2\Questão 2\bin\Debug\Questão 2.exe.config
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\ListaExercicios 3\Questão 2\Questão 2\bin\Debug\Questão 2.exe
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\ListaExercicios 3\Questão 2\Questão 2\bin\Debug\Questão 2.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\ListaExercicios 3\Questão 2\Questão 2\obj\Debug\Questão 2.csprojAssemblyReference.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\ListaExercicios 3\Questão 2\Questão 2\obj\Debug\Questão 2.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\ListaExercicios 3\Questão 2\Questão 2\obj\Debug\Questão 2.exe
+C:\Users\rafae\OneDrive\Área de Trabalho\Atividades POAO 2021\ListaExercicios 3\Questão 2\Questão 2\obj\Debug\Questão 2.pdb
